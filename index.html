@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="titulo">Contablito</h1>
+    <div id="descripcion">
+       <p>Descripción</p> 
+       <input type="text" id="inputdesc">
+    </div>
+    <div id="transaccion">
+       <p>Tipo transacción</p> 
+       <div class="radio">
+          <input type="radio" name="transaccion" id="compra" value="Compra"> <label for="radio1">Compra</label>
+          <input type="radio" name="transaccion" id="venta" value="Venta"> <label for="radio2">Venta</label>
+       </div>
+    </div>
+    <div id="iva">
+       <p>Tipo IVA</p> 
+       <div class="radio2">
+          <input type="radio" name="iva" id="radio3" value="22"> <label for="radio3">Basico</label>
+          <input type="radio" name="iva" id="radio4" value="10"> <label for="radio4">Minimo</label>
+          <input type="radio" name="iva" id="radio5" value="0"> <label for="radio5">Exento</label>
+       </div>
+    </div>
+    <div  class="subtotal">
+       <p>Subtotal ($)</p> 
+       <input type="text" id="subtotal"> 
+      <input type="button" onclick="ingresar()" value="Ingresar">
+    </div>
+    <div>
+        <table class="tabla">
+            <tr>
+              <th class="th">Descripción</th>
+              <th class="th" width="15%">Tipo</th>
+              <th class="th">Subtotal ($)</th>
+              <th class="th">IVA ($)</th>
+              <th class="th" width="25%">Total (IVA inc)</th>
+            </tr>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

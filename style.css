@@ -1,0 +1,49 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#titulo {
+    text-align: center;
+}
+
+#descripcion, #transaccion, #iva {
+    display: flex;
+    align-items: center;
+    margin-left: 5em;
+    gap: 3em;
+}
+
+#descripcion {
+    margin-top: 3em;
+}
+
+#inputdesc {
+    margin-left: 3em;
+}
+
+.radio2 {
+    margin-left: 3.4em;
+}
+
+.subtotal { 
+    display: flex;
+    align-items: center;
+    margin-left: 5em;
+    gap: 5.4em;
+}
+
+.tabla {
+    margin-left: 5em;
+    margin-top: 4em;
+    width:50em;
+    border-collapse: collapse;
+}
+
+.th {
+    border: 3px solid grey;
+}
+
+table td {
+    border: 3px solid grey;
+}
+
